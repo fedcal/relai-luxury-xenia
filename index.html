@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Rayal Park</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <a href="#">Relais Luxury Xenia</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn"><a href="https://www.booking.com/hotel/it/relais-luxury-xenia.it.html?aid=2375516&label=01J1X42R3M4D4ZBF77BKWAKKWV_01J5RE1K1MH02EB5DM909TM99Z" target="_blank">Book Now</a></button>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <p>Simple - Unique - Friendly</p>
+        <h1>Make Yourself At Home<br />In Our <span>B&B</span>.</h1>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/45.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <p class="section__subheader">ABOUT US</p>
+        <h2 class="section__header">The Best Holidays Start Here!</h2>
+        <p class="section__description">
+          With a focus on quality accommodations, personalized experiences, and
+          seamless booking, our platform is dedicated to ensuring that every
+          traveler embarks on their dream holiday with confidence and
+          excitement.
+        </p>
+      </div>
+    </section>
+
+    <section class="section__container room__container">
+      <p class="section__subheader">OUR LIVING ROOM</p>
+      <h2 class="section__header">The Most Memorable Rest Time Starts Here.</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/20.jpg" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Deluxe Ocean View</h4>
+            <p>
+              Bask in luxury with breathtaking ocean views from your private
+              suite.
+            </p>
+            <button class="btn"><a href="https://www.booking.com/hotel/it/relais-luxury-xenia.it.html?aid=2375516&label=01J1X42R3M4D4ZBF77BKWAKKWV_01J5RE1K1MH02EB5DM909TM99Z" target="_blank">Book Now</a></button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/8.jpg" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Executive Cityscape Room</h4>
+            <p>
+              Experience urban elegance and modern comfort in the heart of the
+              city.
+            </p>
+            <button class="btn"><a href="https://www.booking.com/hotel/it/relais-luxury-xenia.it.html?aid=2375516&label=01J1X42R3M4D4ZBF77BKWAKKWV_01J5RE1K1MH02EB5DM909TM99Z" target="_blank">Book Now</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container room__container" id="gallery">
+      <p class="section__subheader">GALLERY</p>
+      <h2 class="section__header">Our Photo.</h2>
+      <div class="slidershow-container">
+        <h3>The garden</h3>
+        <div class="mySlides fade">
+          <img src="assets/1.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="assets/4.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="assets/5.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="assets/6.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="assets/7.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="assets/30.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="assets/35.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="assets/38.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="assets/40.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="assets/43.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="arrows">
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="section__container room__container">
+      <div class="slidershow-container">
+        <h3>Room 1</h3>
+        <div class="room1 fade">
+          <img src="assets/8.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room1 fade">
+          <img src="assets/9.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room1 fade">
+          <img src="assets/10.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room1 fade">
+          <img src="assets/11.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room1 fade">
+          <img src="assets/12.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room1 fade">
+          <img src="assets/13.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room1 fade">
+          <img src="assets/14.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room1 fade">
+          <img src="assets/15.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room1 fade">
+          <img src="assets/19.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room1 fade">
+          <img src="assets/36.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="arrows">
+          <a class="prev" onclick="plusRoom1(-1)">&#10094;</a>
+          <a class="next" onclick="plusRoom1(1)">&#10095;</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container room__container">
+      <div class="slidershow-container">
+        <h3>Room 2</h3>
+        <div class="room2 fade">
+          <img src="assets/20.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room2 fade">
+          <img src="assets/16.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room2 fade">
+          <img src="assets/17.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room2 fade">
+          <img src="assets/21.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room2 fade">
+          <img src="assets/22.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room2 fade">
+          <img src="assets/23.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room2 fade">
+          <img src="assets/24.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room2 fade">
+          <img src="assets/25.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room2 fade">
+          <img src="assets/26.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room2 fade">
+          <img src="assets/27.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room2 fade">
+          <img src="assets/28.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room2 fade">
+          <img src="assets/29.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room2 fade">
+          <img src="assets/30.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="room2 fade">
+          <img src="assets/37.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="arrows">
+          <a class="prev" onclick="plusRoom2(-1)">&#10094;</a>
+          <a class="next" onclick="plusRoom2(1)">&#10095;</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container room__container">
+      <div class="slidershow-container">
+        <h3>Breakfast</h3>
+        <div class="breakfast fade">
+          <img src="assets/2.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="breakfast fade">
+          <img src="assets/3.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="breakfast fade">
+          <img src="assets/31.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="breakfast fade">
+          <img src="assets/32.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="breakfast fade">
+          <img src="assets/33.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="breakfast fade">
+          <img src="assets/34.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="breakfast fade">
+          <img src="assets/35.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="breakfast fade">
+          <img src="assets/39.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="breakfast fade">
+          <img src="assets/41.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="breakfast fade">
+          <img src="assets/42.jpg" alt="" style="width: 100%;">
+          <div class="text">Caption</div>
+        </div>
+        <div class="arrows">
+          <a class="prev" onclick="plusBreakfast(-1)">&#10094;</a>
+          <a class="next" onclick="plusBreakfast(1)">&#10095;</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <div class="service__content">
+          <p class="section__subheader">SERVICES</p>
+          <h2 class="section__header">Strive Only For The Best.</h2>
+          <ul class="service__list">
+            <li>
+              <span><i class="ri-shield-star-line"></i></span>
+              High Class Security
+            </li>
+            <li>
+              <span><i class="ri-24-hours-line"></i></span>
+              24 Hours Room Service
+            </li>
+            <li>
+              <span><i class="ri-headphone-line"></i></span>
+              Conference Room
+            </li>
+            <li>
+              <span><i class="ri-map-2-line"></i></span>
+              Tourist Guide Support
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container room__container">
+      <div class="room__grid">
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/shuttle.jpg" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Shuttle service</h4>
+            <p>
+              Bask in luxury with breathtaking ocean views from your private
+              suite.
+            </p>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/33.jpg" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Breakfast</h4>
+            <p>
+              Experience urban elegance and modern comfort in the heart of the
+              city.
+            </p>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/advice.jpg" alt="room" />
+          </div>
+          <div class="room__card__details">
+            <h4>Tips on places to visit</h4>
+            <p>
+              Experience urban elegance and modern comfort in the heart of the
+              city.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo">
+            <a href="#home">Relais Luxury Xenia</a>
+          </div>
+          <p class="section__description">
+            Discover a world of comfort, luxury, and adventure as you explore
+            our curated selection of hotels, making every moment of your getaway
+            truly extraordinary.
+          </p>
+          <button class="btn"><a href="https://www.booking.com/hotel/it/relais-luxury-xenia.it.html?aid=2375516&label=01J1X42R3M4D4ZBF77BKWAKKWV_01J5RE1K1MH02EB5DM909TM99Z" target="_blank">Book Now</a></button>
+        </div>
+       <!-- <div class="footer__col">
+          <h4>QUICK LINKS</h4>
+          <ul class="footer__links">
+            <li><a href="#">Browse Destinations</a></li>
+            <li><a href="#">Special Offers & Packages</a></li>
+            <li><a href="https://www.google.com/maps/place/Relais+Luxury+Xenia+%7C+B%26B/@40.2183549,18.2254922,158m/data=!3m1!1e3!4m11!3m10!1s0x13442397e7f644ef:0x728290d8ed384071!5m4!1s2024-10-31!2i4!4m1!1i2!8m2!3d40.2183539!4d18.2261359!16s%2Fg%2F11y7fvp48v?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">Customer Reviews & Ratings</a></li>
+            <li><a href="#">Travel Tips & Guides</a></li>
+          </ul>
+        </div>-->
+        <div class="footer__col">
+          <h4>OUR SERVICES</h4>
+          <ul class="footer__links">
+            <li>Concierge Assistance</li>
+            <li>Flexible Booking Options</li>
+            <li>Airport Transfers</li>
+            <li>Wellness & Recreation</li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>CONTACT US</h4>
+          <ul class="footer__links">
+            <li><a href="https://maps.app.goo.gl/kvoZaPkTKQy2gvLK8"><img src="assets/map.png" alt="instagram" />Via Donato Maria Grafei, Sternatia (LE)</a></li>
+            <li><a href="mailto:relais.luxuryxenia@gmail.com"><img src="assets/gmail.png" alt="instagram" />relais.luxuryxenia@gmail.com</a></li>
+            <li><a href="mailto:relais.luxuryxenia@gmail.com"><img src="assets/phone-call.png" alt="instagram" />+39 </a></li>
+          </ul>
+          <div class="footer__socials">
+            <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
+            <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Sito sviluppato da <a href="https://federicocalo.dev" target="_blank">Federico Calò</a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
